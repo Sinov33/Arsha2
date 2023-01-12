@@ -342,7 +342,7 @@
           <li data-filter=".filter-card">Card</li>
           <li data-filter=".filter-web">Web</li>
         </ul>
-         <form action="{% url 'index'%}" method="post">
+         <form action="{% url 'index' %}" method="post">
            {% csrf_token %}
            <input type="text" name="Qidiruv" placeholder="Qidirish...">
            <button type="submit" class="btn btn-success">Jonatish</button>
